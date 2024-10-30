@@ -8,14 +8,12 @@
     }
     else{
         die('Preencha o campo da idade</br>');
-        $idade = false;
     }
     if(!(empty($_POST["nacionalidade"]))){
         $nacionalidade = $_POST["nacionalidade"];
     }
     else{
         die('Preencha o campo da nacionalidade');
-        $nacionalidade = false;
     }
 
     // Exibição da mensagem de acordo com os dados
