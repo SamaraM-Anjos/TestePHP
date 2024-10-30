@@ -9,14 +9,22 @@
     <?php
         $frutas = array('Maça', 'Banana', 'Laranja', 'Uva', 'Manga');
         echo 'Frutas iniciais: </br>';
+        echo "<table>";
         foreach($frutas as $fruta){
-            echo $fruta . "</br>";
+            echo "<tr>";
+                echo "<td>". $fruta . "</td>";
+            echo "</tr>";
         }
+        echo "</table></br>";
         array_push($frutas, 'Abacaxi');
         echo 'Frutas atualizadas: </br>';
+        echo "<table>";
         foreach($frutas as $fruta){
-            echo $fruta . "</br>";
+            echo "<tr>";
+                echo "<td>". $fruta . "</td>";
+            echo "</tr>";
         }
+        echo "</table>"
     ?>
 </body>
 </html>
